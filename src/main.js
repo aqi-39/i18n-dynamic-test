@@ -5,9 +5,9 @@ import locale from './pkg.json'
 
 Vue.use(VueI18n)
 const i18n = new VueI18n({
-	locale: 'zh-CN',
+	locale: 'zh',
 	messages: {
-		'zh-CN': locale,
+		'zh': locale,
 	},
 });
 new Vue({
