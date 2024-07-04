@@ -10,7 +10,7 @@ export default defineConfig({
 		},
 	},
 	build: {
-		outDir: 'dist/1000',
+		outDir: 'dist/5000',
 		assetsDir: '',
 		rollupOptions: {
 			output: {
