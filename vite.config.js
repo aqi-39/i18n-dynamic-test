@@ -10,6 +10,8 @@ export default defineConfig({
 		},
 	},
 	build: {
+		outDir: 'dist/1000',
+		assetsDir: '',
 		rollupOptions: {
 			output: {
 				manualChunks(id) {
